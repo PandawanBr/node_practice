@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/RodrigoKobayashi/node_practice#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "jshint": "^2.10.2"
   }
 }
