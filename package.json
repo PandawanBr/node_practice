@@ -19,6 +19,7 @@
   "dependencies": {
     "ejs": "^2.6.2",
     "express": "^4.17.1",
-    "jshint": "^2.10.2"
+    "jshint": "^2.10.2",
+    "mysql": "^2.17.1"
   }
 }
