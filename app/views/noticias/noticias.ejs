@@ -2,13 +2,32 @@
 <html lang="pt-br">
 
 <head>
-	<meta charset="utf-8" />
+	<meta charset="utf-8">
+	<!-- <meta http-equiv="Content-type" content="text/html"> -->
+	<meta http-equiv="Content-Security-Policy"
+		content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com">
 	<title>Notícias</title>
 </head>
 
 <body>
 
 	<h1>Notícias</h1>
+
+	<table>
+		<tr>
+			<td>ID</td>
+			<td>Título</td>
+			<td>Noticia</td>
+		</tr>
+
+		<% for(var i = 0; i < noticias.length; i++) {%>
+		<tr>
+			<td><%= noticias[i].id_noticia %></td>
+			<td><%= noticias[i].titulo %></td>
+			<td><%= noticias[i].noticia %></td>
+		</tr>
+		<%}%>
+	</table>
 
 </body>
 
