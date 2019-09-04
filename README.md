@@ -24,6 +24,8 @@ Open the browser in **localhost:3000**
     * Create modules pages/routes, write the ReadMe.md
 * Day 3
     * Configure MySQL DbConnection and show result in /noticias
+* Day 4
+    * Fix local MySQL Ubuntu, request /noticias and /noticia, create a model to use in routes
 
 ### Courses Link
 * [Curso Completo do Desenvolvedor NodeJs e MongoDB](https://www.udemy.com/course/curso-completo-do-desenvolvedor-nodejs/learn/lecture/5652568#content)

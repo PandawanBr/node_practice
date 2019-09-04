@@ -3,13 +3,30 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="Content-type" content="text/html">
-	<title>Portal de notícias</title>
+	<!-- <meta http-equiv="Content-type" content="text/html"> -->
+	<meta http-equiv="Content-Security-Policy"
+		content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com">
+	<title>Notícia
+	</title>
 </head>
 
 <body>
 
 	<h1>Notícia</h1>
+
+	<table>
+		<tr>
+			<td>ID</td>
+			<td>Título</td>
+			<td>Noticia</td>
+		</tr>
+
+		<tr>
+			<td><%= noticia[0].id_noticia %></td>
+			<td><%= noticia[0].titulo %></td>
+			<td><%= noticia[0].noticia %></td>
+		</tr>
+	</table>
 
 </body>
 
