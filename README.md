@@ -26,6 +26,8 @@ Open the browser in **localhost:3000**
     * Configure MySQL DbConnection and show result in /noticias
 * Day 4
     * Fix local MySQL Ubuntu, request /noticias and /noticia, create a model to use in routes
+* Day 5
+    * Post request, save body in BD, redirect to /noticias
 
 ### Courses Link
 * [Curso Completo do Desenvolvedor NodeJs e MongoDB](https://www.udemy.com/course/curso-completo-do-desenvolvedor-nodejs/learn/lecture/5652568#content)
