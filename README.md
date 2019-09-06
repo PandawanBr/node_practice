@@ -26,6 +26,7 @@ Open the browser in **localhost:3000**
     * Configure MySQL DbConnection and show result in /noticias
 * Day 4
     * Fix local MySQL Ubuntu, request /noticias and /noticia, create a model to use in routes
+    * This solve my problem with MySQL `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';`
 * Day 5
     * Post request, save body in BD, redirect to /noticias
 * Day 6
