@@ -28,6 +28,8 @@ Open the browser in **localhost:3000**
     * Fix local MySQL Ubuntu, request /noticias and /noticia, create a model to use in routes
 * Day 5
     * Post request, save body in BD, redirect to /noticias
+* Day 6
+    * Class refactor, express-validator (have some problem in app.use(expressValidator))
 
 ### Courses Link
 * [Curso Completo do Desenvolvedor NodeJs e MongoDB](https://www.udemy.com/course/curso-completo-do-desenvolvedor-nodejs/learn/lecture/5652568#content)
